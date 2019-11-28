@@ -7,6 +7,7 @@ Version: 1.0
 Author: John Beales
 Author URI: http://johnbeales.com
 Text Domain: jb-gcw
+WC tested up to: 3.8
 
 */
 
