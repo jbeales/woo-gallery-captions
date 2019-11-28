@@ -23,7 +23,7 @@ function gcw_insert_captions( $html, $attachment_id ) {
 
 	$description = get_post_field( 'post_excerpt', $attachment_id );
 	if( !empty( $description ) ) {
-		$captions .= '<p>' . $description . '</p>';
+		$captions .= '<p>' . esc_html( $description ) . '</p>';
 	}
 
 	if( !empty( $captions ) ) {
