@@ -21,9 +21,9 @@ function gcw_insert_captions( $html, $attachment_id ) {
 		$captions .= '<h5>' . esc_html( $title ) . '</h5>';
 	}
 
-	$description = get_post_field( 'post_excerpt', $attachment_id );
-	if( !empty( $description ) ) {
-		$captions .= '<p>' . esc_html( $description ) . '</p>';
+	$caption = get_post_field( 'post_excerpt', $attachment_id );
+	if( !empty( $caption ) ) {
+		$captions .= '<p>' . esc_html( $caption ) . '</p>';
 	}
 
 	if( !empty( $captions ) ) {
