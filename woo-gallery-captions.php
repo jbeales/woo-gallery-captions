@@ -36,3 +36,18 @@ function gcw_insert_captions( $html, $attachment_id ) {
 }
 
 add_filter( 'woocommerce_single_product_image_thumbnail_html', 'gcw_insert_captions', 10, 2 );
+
+
+function gcw_enquque_js() {
+	 if ( ! did_action( 'before_woocommerce_init' ) ) {
+        return;
+    }
+    if( is_product() ) {
+    	$product = wc_get_product();
+    	if($product->get_type() === 'variable' ) {
+    		wp_enqueue_script('gcw-variable-product', plugins_url( 'js/gcw-variable-product.js', __FILE__ ), array('jquery'));
+    	}
+    }
+}
+add_action( 'wp_enqueue_scripts', 'gcw_enquque_js' );
+
