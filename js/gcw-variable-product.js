@@ -6,7 +6,8 @@
 			container = img.closest('div.woocommerce-product-gallery__image'),
 			captionContainer,
 			titleElm,
-			captionElm;
+			captionElm,
+			hasRemove = (typeof img.remove === 'function');
 
 		if(container) {
 			captionContainer = container.querySelector('div.gcw-caption');
@@ -40,6 +41,15 @@
 				}
 				captionElm.innerHTML = img.getAttribute('data-caption');
 			}
+		}
+
+		// Remove empty elements if needed.
+		if( img.getAttribute('title').length === 0 && titleElm ) {
+			titleElm.parentNode.removeChild(titleElm);
+		}
+
+		if( img.getAttribute('data-caption').length === 0 && captionElm ) {
+			captionElm.parentNode.removeChild(captionElm);
 		}
 	}
 
