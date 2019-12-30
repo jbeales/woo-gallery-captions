@@ -5,9 +5,6 @@ Adds the title & caption of each image in a Product Gallery to the Single-Produc
 
 ## Known Issues:
 
-### Image captions not updated when different variations are selected
-When a customer changes product options the image may change to show the currently-selected options. When this happens the caption does not change. A fix is planned, see [Issue #1](https://github.com/jbeales/woo-gallery-captions/issues/1).
-
 ### Conflict with [WooCommerce Additional Variation Images](https://woocommerce.com/products/woocommerce-additional-variation-images/) Extension
 
 #### Missing HTML
