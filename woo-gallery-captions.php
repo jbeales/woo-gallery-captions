@@ -11,6 +11,10 @@ WC tested up to: 3.8
 
 */
 
+if ( ! defined( 'ABSPATH' ) ) {
+    exit; // Exit if accessed directly
+}
+
 
 function gcw_insert_captions( $html, $attachment_id ) {
 
