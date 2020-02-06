@@ -6,7 +6,7 @@ Description: Adds captions to the default WooCommerce gallery on the single-prod
 Version: 1.0
 Author: John Beales
 Author URI: http://johnbeales.com
-Text Domain: jb-gcw
+Text Domain: woo-gallery-captions
 WC tested up to: 3.8
 
 */
