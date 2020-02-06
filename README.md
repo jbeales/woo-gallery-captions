@@ -6,7 +6,7 @@ Adds the title & caption of each image in a Product Gallery to the Single-Produc
 ## Known Issues:
 
 ### Image captions may be hidden when different variations are selected
-If product image magnification is on WooCommerce doesn't seem to updat the height of the element that contains the images when swapping to a new variation image, so if the new image is taller than the old one some of the content below the image, (and part of the new image itself), may be hidden.
+If product image magnification is on WooCommerce doesn't seem to update the height of the element that contains the images when swapping to a new variation image, so if the new image is taller than the old one some of the content below the image, (and part of the new image itself), may be hidden.
 
 ### Conflict with [WooCommerce Additional Variation Images](https://woocommerce.com/products/woocommerce-additional-variation-images/) Extension
 
