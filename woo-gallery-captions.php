@@ -39,7 +39,9 @@ add_filter( 'woocommerce_single_product_image_thumbnail_html', 'gcw_insert_capti
 
 
 function gcw_enquque_js() {
-	 if ( ! did_action( 'before_woocommerce_init' ) ) {
+
+	// check if WooCommerce is actually running
+	if ( ! did_action( 'before_woocommerce_init' ) ) {
         return;
     }
     if( is_product() ) {
