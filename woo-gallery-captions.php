@@ -5,9 +5,12 @@ Plugin URI:
 Description: Adds captions to the default WooCommerce gallery on the single-product page.
 Version: 1.0
 Author: John Beales
-Author URI: http://johnbeales.com
+Author URI: https://johnbeales.com
 Text Domain: woo-gallery-captions
-WC tested up to: 3.8
+WC tested up to: 3.9.2
+
+
+
 
 */
 
