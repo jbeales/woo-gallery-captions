@@ -7,7 +7,11 @@ Version: 1.0
 Author: John Beales
 Author URI: https://johnbeales.com
 Text Domain: woo-gallery-captions
+License: GNU General Public License v3.0
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+
 WC tested up to: 3.9.2
+WC requires at least: 3.4
 
 
 
