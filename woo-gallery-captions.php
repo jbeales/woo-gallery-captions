@@ -64,3 +64,23 @@ function gcw_enquque_js() {
 }
 add_action( 'wp_enqueue_scripts', 'gcw_enquque_js' );
 
+
+function gcw_maybe_show_activated_notice() {
+	$do_notice = get_transient( 'gcw-do-welcome' );
+	if( $do_notice ) {
+		$notice_text = __( 'Gallery Captions for WooCommerce is now active and your product pages should have captions.', 'woo-gallery-captions' );
+		echo '<div class="notice notice-success"><p>' . $notice_text . '</p></div>'; 
+		delete_transient( 'gcw-do-welcome' ); 
+	}
+}
+add_action( 'admin_notices', 'gcw_maybe_show_activated_notice' );
+
+
+
+function gcw_add_activated_notice() {
+	set_transient( 'gcw-do-welcome', 'do_welcome' );
+}
+register_activation_hook( __FILE__, 'gcw_add_activated_notice' );
+
+
+
