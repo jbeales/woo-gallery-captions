@@ -1,4 +1,4 @@
-== Changelog ==
+*** Gallery Captions for WooCommerce Changelog ***
 
-= 1.0 =
-* Initial public release.
+2020-02-29 - version 1.0
+* Inital release
