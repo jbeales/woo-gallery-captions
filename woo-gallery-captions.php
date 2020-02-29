@@ -3,9 +3,6 @@
  * Gallery Captions for WooCommerce
  *
  * @package WooGalleryCaptions
- * @author John Beales
- * @copyright 2020 John Beales
- * @license GNU GPL v3
  *
  * Plugin Name: Gallery Captions for WooCommerce
  * Plugin URI:
@@ -73,7 +70,7 @@ function gcw_enquque_js() {
 	if ( is_product() ) {
 		$product = wc_get_product();
 		if ( $product->get_type() === 'variable' ) {
-			wp_enqueue_script( 'gcw-variable-product', plugins_url( 'js/gcw-variable-product.js', __FILE__ ), array( 'jquery' ) );
+			wp_enqueue_script( 'gcw-variable-product', plugins_url( 'js/gcw-variable-product.js', __FILE__ ), array( 'jquery' ), '1', true );
 		}
 	}
 }
