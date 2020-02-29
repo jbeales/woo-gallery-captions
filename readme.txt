@@ -49,10 +49,3 @@ If product image magnification is on WooCommerce doesn't seem to update the heig
 Until this is fixed in WooCommerce the best option is to keep images the same height, or at least the same aspect ratio, (so all square, or all 4:3).
 
 
-
-== Screenshots ==
-
-== Changelog ==
-
-= 1.0 =
-* Initial public release.
