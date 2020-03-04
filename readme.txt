@@ -29,6 +29,18 @@ Once the plugin is installed you will be given the option to activate it. It mus
 
 No configuration is required, or possible. If the plugin is activated captions will be shown, if not no captions will be shown.
 
+== Styling ==
+
+No styling is included, but there's a pretty good chance it'll look good without anything special. If it doesn't look quite how you want you can add styles to your theme's stylesheet or to the WordPress's custom CSS.
+
+The markup for the captions looks like this:
+```
+<div class="gcw-caption">
+<h5>The image title goes here</h5>
+<p>The image caption goes here</p>
+```
+If either the title or caption is empty then the entire `h5` or `p` is omitted.
+
 == Frequently Asked Questions ==
 
 = How do I configure the captions? =
