@@ -16,6 +16,9 @@
  *
  * WC tested up to: 3.9.2
  * WC requires at least: 3.4
+ *
+ * Woo: 5502332:a8b3958b67b6d4afefe1398b6a056044
+ * 
  */
 
 if ( ! defined( 'ABSPATH' ) ) {
