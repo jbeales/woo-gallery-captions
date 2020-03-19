@@ -1,4 +1,7 @@
 *** Gallery Captions for WooCommerce Changelog ***
 
+2020-03-19 - version 1.0.1
+* Update tested version of WooCommerce to 4.0
+
 2020-02-29 - version 1.0
 * Inital release
