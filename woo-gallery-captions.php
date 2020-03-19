@@ -14,7 +14,7 @@
  * License: GNU General Public License v3.0
  * License URI: http://www.gnu.org/licenses/gpl-3.0.html
  *
- * WC tested up to: 3.9.2
+ * WC tested up to: 4.0
  * WC requires at least: 3.4
  *
  * Woo: 5502332:a8b3958b67b6d4afefe1398b6a056044
