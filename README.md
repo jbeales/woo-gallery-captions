@@ -2,6 +2,8 @@
 
 Adds the title & caption of each image in a Product Gallery to the Single-Product pages so customers can read them!
 
+## Available on WooCommerce.com
+Gallery Captions for WooCommerce is [available to purchase from WooCommerce](https://woocommerce.com/products/gallery-captions-for-woocommerce/). Buy purchasing from WooCommerce you get support and you support me as an independent developer.
 
 ## Known Issues:
 

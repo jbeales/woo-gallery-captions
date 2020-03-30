@@ -18,7 +18,6 @@
  * WC requires at least: 3.4
  *
  * Woo: 5502332:a8b3958b67b6d4afefe1398b6a056044
- * 
  */
 
 if ( ! defined( 'ABSPATH' ) ) {
@@ -107,6 +106,4 @@ function gcw_add_activated_notice() {
 	set_transient( 'gcw-do-welcome', 'do_welcome' );
 }
 register_activation_hook( __FILE__, 'gcw_add_activated_notice' );
-
-
 
