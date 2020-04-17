@@ -3,7 +3,7 @@
 	function updateCaptionFromMutation(mutation)
 	{
 		var	img = mutation.target,
-			container = img.closest('div.woocommerce-product-gallery__image') || img.closest('div.woocommerce-product-gallery__image--placeholder'),
+			container = img.closest('div[class^="woocommerce-product-gallery__image"'),
 			captionContainer,
 			titleElm,
 			captionElm,
@@ -64,7 +64,7 @@
 	// Does the image we care about exist on the page?
 	function init()
 	{
-		var img = ( document.querySelector('.woocommerce-product-gallery .woocommerce-product-gallery__image .wp-post-image') || document.querySelector('.woocommerce-product-gallery .woocommerce-product-gallery__image--placeholder .wp-post-image') ),
+		var img = ( document.querySelector('.woocommerce-product-gallery div[class^="woocommerce-product-gallery__image"] .wp-post-image') ),
 			config = {attributes: true, attributeFilter: ['data-src']},
 			observer = new MutationObserver(mutationCallback);
 
