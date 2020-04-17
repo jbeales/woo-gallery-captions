@@ -37,6 +37,10 @@ function gcw_insert_captions( $html, $attachment_id ) {
 
 	$captions = '';
 
+	if ( get_post_field( 'post_type', $attachment_id ) !== 'attachment' ) {
+		return $html;
+	}
+
 	$title = get_post_field( 'post_title', $attachment_id );
 	if ( ! empty( $title ) ) {
 		$captions .= '<h5>' . esc_html( $title ) . '</h5>';
