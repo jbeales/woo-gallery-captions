@@ -1,5 +1,11 @@
 *** Gallery Captions for WooCommerce Changelog ***
 
+2020-04-17 = version 1.0.2
+* Fix bug that stopped Gallery from working on variable products with no Product Image
+* Change: Don't show the product title as a caption if there's no product image.
+* Update tested version of WooCommerce to 4.0.1.0
+* Update tested version of WordPress to 5.4
+
 2020-03-19 - version 1.0.1
 * Update tested version of WooCommerce to 4.0
 
